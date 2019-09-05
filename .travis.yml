@@ -1,0 +1,13 @@
+language: node_js
+sudo: required
+os:
+- linux
+- osx
+node_js:
+- '10'
+- '8'
+script:
+# build
+- npm install 
+# test
+- npx cypress run --spec ./cypress/integration/project_creation/studio_projects.js 
