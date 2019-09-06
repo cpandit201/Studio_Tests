@@ -2,6 +2,8 @@
 
 Cypress end-to end test for XYZ Studio 
 
+[![Build Status](https://travis-ci.org/cpandit201/Studio_Tests.svg?branch=master)](https://travis-ci.org/cpandit201/Studio_Tests)
+
 Navigate to project root and execute below command to execute tests headlessly
 
 `$<project-root>/npm run-script test:ci` 
